@@ -1,0 +1,115 @@
+.results-container {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.results-container.dark {
+    background-color: #1e293b;
+    color: #e5e7eb;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.image-preview {
+    margin-bottom: 20px;
+}
+
+.preview-img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* ✅ Aligns Progress Bar & Diagnosis Side by Side */
+.results-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px; /* More space for better readability */
+    margin-top: 20px;
+    max-height: 250px;
+}
+
+/* ✅ Keeps Progress Bar Style */
+.progress-circle {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+circle {
+    fill: none;
+    stroke-width: 10;
+    stroke: #ddd;
+    stroke-dasharray: 250;
+    stroke-dashoffset: 250;
+    transition: stroke-dashoffset 1s ease-in-out;
+}
+
+circle:nth-child(2) {
+    stroke: #1e90ff;
+}
+
+/* ✅ Keeps Percentage Centered */
+.percentage {
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    color: #1E90FF;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ✅ Diagnosis Section (Beside Progress Bar, Fully Transparent) */
+.diagnosis-container {
+    text-align: left;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #333;
+    background: none;  /* Ensures full transparency */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+/* ✅ Result Headline */
+.result-heading {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1E90FF; /* Sky Blue */
+}
+
+/* ✅ Result Prediction */
+.result-prediction {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* ✅ Specialists List */
+.specialists {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #555;
+}

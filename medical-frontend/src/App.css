@@ -1,0 +1,98 @@
+:root {
+  --background: #F9FAFB;
+  --primary-color: #1E90FF;
+  --secondary-color: #E3F2FD;
+  --text-color: #111827;
+  --accent-color: #EF4444;
+  --success-color: #22C55E;
+  --glass-bg: rgba(255, 255, 255, 0.2);
+  --glass-border: rgba(255, 255, 255, 0.2);
+  --glass-shadow: rgba(0, 0, 0, 0.1);
+}
+
+[data-theme="dark"] {
+  --background: #111827;
+  --primary-color: #1E90FF;
+  --secondary-color: #1E293B;
+  --text-color: #acb0b6;
+  --accent-color: #EF4444;
+  --success-color: #22C55E;
+  --glass-bg: rgba(0, 0, 0, 0.3);  /* 🔹 Dark glass effect */
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: rgba(0, 0, 0, 0.5);
+}
+
+/* 🌟 Background & Global Settings */
+body {
+  background: url('./assets/background.png') no-repeat center center fixed;
+  background-position: 120px 100px;
+  background-size: contain; 
+  background-color: var(--background);
+  color: var(--text-color);
+  transition: background 0.3s, color 0.3s;
+}
+.profile-grid {
+  display: flex;
+  flex-wrap: wrap; /* Ensures responsiveness */
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* 🌟 Glassmorphism Effect */
+.glass-container {
+  background: var(--glass-bg);
+  backdrop-filter: blur(15px);
+  border-radius: 12px;
+  border: 1px solid var(--glass-border);
+  box-shadow: 0 8px 32px var(--glass-shadow);
+  transition: all 0.3s ease-in-out;
+}
+
+/* 🌟 Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  background: var(--secondary-color);
+  color: var(--text-color);
+  @extend .glass-container;
+}
+
+/* 🌟 Theme Toggle Button */
+.theme-toggle {
+  background: var(--primary-color);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* 🌟 App Layout */
+.app-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* 🌟 Cards with Glassmorphism */
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  position: relative;
+  padding: 20px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  @extend .glass-container;
+}
+
+.card h2 {
+  color: var(--text-color);
+}

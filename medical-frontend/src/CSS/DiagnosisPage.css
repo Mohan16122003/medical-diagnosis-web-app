@@ -1,0 +1,19 @@
+/* Diagnosis Page Container */
+/* Diagnosis Page Container */
+.diagnosis-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 78vh;
+    text-align: center;
+    padding-top: 70px;
+    background: url('../assets/background.png')no-repeat center center fixed;
+    background-position: center 100px;
+    background-size: contain;
+    background-color: var(--background);
+         /* Prevents unnecessary scrolling */
+}
+
+
+

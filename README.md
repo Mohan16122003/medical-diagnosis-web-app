@@ -8,20 +8,18 @@ This is a web-based application that leverages machine learning models to predic
 - 💬 User-friendly web interface for easy interaction.
 - 📊 Dynamic form input based on disease selected.
 - 🧠 Models trained on real medical datasets.
-- ⚙️ Backend powered by Python (Flask/Django/FastAPI).
-- 🌐 Frontend built with modern JavaScript frameworks (React/HTML/CSS).
+- ⚙️ Backend powered by Python (Flask)
+- 🌐 Frontend built with modern JavaScript frameworks (React/CSS/Tailwind CSS).
 - 🧪 Input validation and result interpretation.
 
 ## 🧠 Diseases Covered
 
 Examples (depending on models integrated):
 
-- Diabetes
+- Brain Tumor
 - Heart Disease
-- Parkinson’s Disease
-- Breast Cancer
-- Kidney Disease
-- Liver Disease
+- Pneumonia
+- Eye Disease
 
 ## 🛠️ Tech Stack
 
@@ -33,7 +31,7 @@ Examples (depending on models integrated):
 - Scikit-learn, Pandas, NumPy, Tensorflow
 
 **ML Models:**
-- Trained classifiers like Logistic Regression, Random Forest, SVM, XGBoost, CNN, etc.
+- Trained classifiers like Logistic Regression, Random Forest, SVM, XGBoost, CNN, VGG16 etc.
 
 ## 📦 Installation
 

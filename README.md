@@ -39,3 +39,9 @@ Examples (depending on models integrated):
    ```bash
    git clone https://github.com/Mohan16122003/medical-diagnosis-web-app.git
    cd medical-diagnosis-web-app
+
+![Screenshot 2025-04-26 102546 - Copy](https://github.com/user-attachments/assets/4ffe7306-404f-4535-9bd5-49560a9f191a)
+![Screenshot 2025-04-26 102524 - Copy](https://github.com/user-attachments/assets/2b0d8d49-9d73-469a-95ca-087ae5f4e7e3)
+![Screenshot 2025-04-26 102441 - Copy](https://github.com/user-attachments/assets/9f69d560-7384-490f-a572-48d033edd7df)
+![Screenshot 2025-04-26 102427 - Copy](https://github.com/user-attachments/assets/544d4cc4-3f49-4aea-807e-00a5ec4a6bd3)
+![Screenshot 2025-04-26 102732 - Copy](https://github.com/user-attachments/assets/747e7726-4b77-4292-8b86-59fa34f924f7)
